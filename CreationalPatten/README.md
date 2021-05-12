@@ -10,22 +10,23 @@
 
    重要程度：4 （5为满分）
 
-1. 工厂方法模式（Factory Method）
+1. [工厂方法模式（Factory Method）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/FactoryMethod)
 
    重要程度：5
 
-2. 抽象工厂模式（Abstract Factory）
+2. [抽象工厂模式（Abstract Factory）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/AbstractFactory)
 
    重要程度：5
 
-3. 建造者模式（Builder）
+3. [建造者模式（Builder）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/Builder)
 
    重要程度：2
 
-4. 原型模式（Prototype）
+4. [原型模式（Prototype）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/Prototype)
 
    重要程度：3
 
-5. 单例模式（Singleton）
+5. [单例模式（Singleton）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/Singleton)
 
    重要程度：4
+
