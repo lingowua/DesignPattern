@@ -8,11 +8,7 @@
 #include <iostream>
 #include "CarFactory.h"
 
-#ifndef SAFE_DELETE
 #define SAFE_DELETE(p) { if(p){delete(p); (p)=nullptr;} }
-#endif
-
-using namespace std;
 
 int main(int argc, const char * argv[]) {
     // 工厂

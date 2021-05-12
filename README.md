@@ -56,7 +56,7 @@
 
 ​	**好处**：提高项目稳定性和灵活性
 
-**概括:**单一职责原则告诉我们实现类要职责单一；里氏替换原则告诉我们不要破坏继承体系；依赖倒置原则告诉我们要面向接口编程；接口隔离原则告诉我们在设计接口的时候要精简单一；迪米特法则告诉我们要降低耦合。而开闭原则是总纲，它告诉我们要对扩展开放，对修改关闭。
+**概括**：单一职责原则告诉我们实现类要职责单一；里氏替换原则告诉我们不要破坏继承体系；依赖倒置原则告诉我们要面向接口编程；接口隔离原则告诉我们在设计接口的时候要精简单一；迪米特法则告诉我们要降低耦合。而开闭原则是总纲，它告诉我们要对扩展开放，对修改关闭。
 
 7. **组合/聚合复用原则（Composite/Aggregate Reuse Principle, CPR）**
 
@@ -66,12 +66,13 @@
 
 ### 创建型模式
 
-- 简单工厂模式（Simple Factory）
-- 工厂方法模式（Factory Method）
-- 抽象工厂模式（Abstract Factory）
-- 建造者模式（Builder）
-- 原型模式（Prototype）
-- 单例模式（Singleton）
+0. [简单工厂模式（Simple Factory）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/SimpleFactory)
+
+1. 工厂方法模式（Factory Method）
+2. 抽象工厂模式（Abstract Factory）
+3. 建造者模式（Builder）
+4. 原型模式（Prototype）
+5. 单例模式（Singleton）
 
 
 

@@ -73,8 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				F443CF10264BAE470068BFF3 /* README.md */,
-				F443CF11264BAE470068BFF3 /* CarFactory.h */,
 				F443CF12264BAE470068BFF3 /* ICar.h */,
+				F443CF11264BAE470068BFF3 /* CarFactory.h */,
 				F443CF0B264BAE170068BFF3 /* main.cpp */,
 			);
 			path = SimpleFactory;

@@ -6,26 +6,26 @@
 
 **包含模式**
 
-- - 简单工厂模式（Simple Factory）
+0. [简单工厂模式（Simple Factory）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/SimpleFactory)
 
-    重要程度：4 （5为满分）
+   重要程度：4 （5为满分）
 
-- - 工厂方法模式（Factory Method）
+1. 工厂方法模式（Factory Method）
 
-    重要程度：5
+   重要程度：5
 
-- - 抽象工厂模式（Abstract Factory）
+2. 抽象工厂模式（Abstract Factory）
 
-    重要程度：5
+   重要程度：5
 
-- - 建造者模式（Builder）
+3. 建造者模式（Builder）
 
-    重要程度：2
+   重要程度：2
 
-- - 原型模式（Prototype）
+4. 原型模式（Prototype）
 
-    重要程度：3
+   重要程度：3
 
-- - 单例模式（Singleton）
+5. 单例模式（Singleton）
 
-    重要程度：4
+   重要程度：4

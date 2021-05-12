@@ -39,5 +39,4 @@ public:
     }
 };
 
-
 #endif /* CarFactory_h */
