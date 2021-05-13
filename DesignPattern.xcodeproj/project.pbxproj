@@ -106,6 +106,8 @@
 		F49C8C17264D27A100382C1E /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		F49C8C18264D27A100382C1E /* EagerSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EagerSingleton.h; sourceTree = "<group>"; };
 		F49C8C19264D27A100382C1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F49C8C1A264D6B2800382C1E /* Protype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protype.h; sourceTree = "<group>"; };
+		F49C8C1B264D6B2800382C1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +243,8 @@
 		F49C8C06264D217000382C1E /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
+				F49C8C1B264D6B2800382C1E /* README.md */,
+				F49C8C1A264D6B2800382C1E /* Protype.h */,
 				F49C8C07264D217000382C1E /* main.cpp */,
 			);
 			path = Prototype;
