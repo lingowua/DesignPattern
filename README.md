@@ -76,6 +76,4 @@
 #### 参考：
 
 1. [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
-
-2. [Waleon](https://github.com/Waleon)/**[DesignPatterns](https://github.com/Waleon/DesignPatterns)**
-
+2. [Waleon](https://github.com/Waleon)/[DesignPatterns](https://github.com/Waleon/DesignPatterns)
