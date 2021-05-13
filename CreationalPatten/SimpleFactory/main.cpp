@@ -8,6 +8,8 @@
 #include <iostream>
 #include "CarFactory.h"
 
+#define SAFE_DELETE(p) { if(p){delete(p); (p)=nullptr;} }
+
 int main(int argc, const char * argv[]) {
     // 工厂
     Factory *pFactory = new Factory();
@@ -20,7 +22,11 @@ int main(int argc, const char * argv[]) {
     cout << pBenzCar->Name() << endl;
     cout << pBmwCar->Name() << endl;
     cout << pAudiCar->Name() << endl;
+
+    SAFE_DELETE(pBenzCar);
+    SAFE_DELETE(pBmwCar);
+    SAFE_DELETE(pAudiCar);
+    SAFE_DELETE(pFactory);
     
-    getchar();
     return 0;
 }

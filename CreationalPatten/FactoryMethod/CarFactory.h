@@ -1,6 +1,6 @@
 //
 //  CarFactory.h
-//  SimpleFactory
+//  FactoryMethod
 //
 //  Created by lingowu on 2021/5/12.
 //
@@ -13,6 +13,7 @@
 // 工厂接口
 class AFactory {
 public:
+    virtual ~AFactory() {}
     virtual ICar* CreateCar() = 0;  // 生产汽车
 };
 
