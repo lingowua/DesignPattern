@@ -11,7 +11,6 @@
 #define SAFE_DELETE(p) { if(p){delete(p); (p)=nullptr;} }
 
 int main(int argc, const char * argv[]) {
-    cout << "Abstract factory: " << endl;
     // 奔驰
     AFactory *pFactory = AFactory::CreateFactory(FACTORY_TYPE::BENZ_FACTORY);
     ICar *pCar = pFactory->CreateCar();
