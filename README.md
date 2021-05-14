@@ -71,6 +71,29 @@
 4. [原型模式（Prototype）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/Prototype)
 5. [建造者模式（Builder）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/Builder)
 
+### [结构型模式](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPattern)
+
+1. [适配器模式（Adapter）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Adapter)
+2. [桥接模式（Bridge）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Bridge)
+3. [组合模式（Composite）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Composite)
+4. [装饰模式（Decorator）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Decorator)
+5. [外观模式（Facade）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Facade)
+6. [享元模式（Flyweight）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Flyweight)
+7. [代理模式（Proxy）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Proxy)
+
+### [行为型模式](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPattern)
+
+1. [职责链模式（Chain of Responsibility）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/ChainOfResponsibility)
+2. [命令模式（Command）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/Command)
+3. [解释器模式（Interpreter）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/Interpreter)
+4. [迭代器模式（Iterator）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/Iterator)
+5. [中介者模式（Mediator）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/Mediator)
+6. [备忘录模式（Memento）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/Memento)
+7. [观察者模式（Observer）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/Observer)
+8. [状态模式（State）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/State)
+9. [策略模式（Strategy）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/Strategy)
+10. [模板方法模式（Template Method）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/TemplateMethod)
+11. [访问者模式（Visitor）](https://github.com/ontheway12138/DesignPattern/tree/master/BehavioralPatten/Visitor)
 
 
 #### 参考：
