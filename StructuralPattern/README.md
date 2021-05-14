@@ -12,18 +12,18 @@
 
 **包含模式**
 
-1. [适配器模式（Adapter）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Adapter)
+1. [适配器模式（Adapter）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPattern/Adapter)
     重要程度：4
-2. [桥接模式（Bridge）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Bridge)
+2. [桥接模式（Bridge）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPattern/Bridge)
     重要程度：3
-3. [组合模式（Composite）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Composite)
+3. [组合模式（Composite）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPattern/Composite)
     重要程度：4
-4. [装饰模式（Decorator）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Decorator)
+4. [装饰模式（Decorator）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPattern/Decorator)
     重要程度：3
-5. [外观模式（Facade）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Facade)
+5. [外观模式（Facade）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPattern/Facade)
     重要程度：5
-6. [享元模式（Flyweight）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Flyweight)
+6. [享元模式（Flyweight）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPattern/Flyweight)
     重要程度：1
-7. [代理模式（Proxy）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPatten/Proxy)
+7. [代理模式（Proxy）](https://github.com/ontheway12138/DesignPattern/tree/master/StructuralPattern/Proxy)
     重要程度：4
 
