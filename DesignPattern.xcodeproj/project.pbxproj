@@ -518,14 +518,14 @@
 			isa = PBXGroup;
 			children = (
 				F443CEFC264BADBA0068BFF3 /* README.md */,
-				F443CEFD264BADBA0068BFF3 /* CreationalPatten */,
+				F443CEFD264BADBA0068BFF3 /* CreationalPattern */,
 				F49C8C1C264E1D6E00382C1E /* StructuralPattern */,
 				F49C8C1D264E1E4500382C1E /* BehavioralPattern */,
 				F443CF09264BAE170068BFF3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F443CEFD264BADBA0068BFF3 /* CreationalPatten */ = {
+		F443CEFD264BADBA0068BFF3 /* CreationalPattern */ = {
 			isa = PBXGroup;
 			children = (
 				F443CF03264BADBA0068BFF3 /* README.md */,
@@ -536,7 +536,7 @@
 				F49C8C06264D217000382C1E /* Prototype */,
 				F4343A89264CC428000D156D /* Builder */,
 			);
-			path = CreationalPatten;
+			path = CreationalPattern;
 			sourceTree = "<group>";
 		};
 		F443CF09264BAE170068BFF3 /* Products */ = {
