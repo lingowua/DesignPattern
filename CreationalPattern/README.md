@@ -6,15 +6,15 @@
 
 **包含模式**
 
-0. [简单工厂模式（Simple Factory）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/SimpleFactory)
+0. [简单工厂模式（Simple Factory）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPattern/SimpleFactory)
    重要程度：4 （5为满分）
-1. [工厂方法模式（Factory Method）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/FactoryMethod)
+1. [工厂方法模式（Factory Method）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPattern/FactoryMethod)
    重要程度：5
-2. [抽象工厂模式（Abstract Factory）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/AbstractFactory)
+2. [抽象工厂模式（Abstract Factory）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPattern/AbstractFactory)
    重要程度：5   
-3. [单例模式（Singleton）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/Singleton)
+3. [单例模式（Singleton）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPattern/Singleton)
     重要程度：4
-4. [原型模式（Prototype）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/Prototype)
+4. [原型模式（Prototype）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPattern/Prototype)
     重要程度：3
-5. [建造者模式（Builder）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPatten/Builder)
+5. [建造者模式（Builder）](https://github.com/ontheway12138/DesignPattern/tree/master/CreationalPattern/Builder)
    重要程度：2
