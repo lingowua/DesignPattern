@@ -31,11 +31,13 @@ public:
         Builder size(string size) { iSize = size; return *this;}
         Builder pearl(bool pearl) { iPearl = pearl; return *this;}
         Builder ice(bool ice) { iIce = ice; return *this;}
-        MilkTea build() { return MilkTea(this);}
+        
         string type() { return iType;}
         string size() { return iSize;}
         bool pearl() { return iPearl;}
         bool ice() { return iIce;}
+        
+        MilkTea build() { return MilkTea(this);}
     };
 
     void show() {

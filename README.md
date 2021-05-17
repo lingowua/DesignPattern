@@ -100,3 +100,4 @@
 
 1. [图说设计模式](https://design-patterns.readthedocs.io/zh_CN/latest/index.html)
 2. [Waleon](https://github.com/Waleon)/[DesignPatterns](https://github.com/Waleon/DesignPatterns)
+3. [LeetCode 设计模式专栏](https://mp.weixin.qq.com/mp/appmsgalbum?action=getalbum&album_id=1461125104968318982)

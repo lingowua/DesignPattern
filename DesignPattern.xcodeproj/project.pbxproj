@@ -326,6 +326,10 @@
 		F49C8CDF264E239A00382C1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F49C8CE4264E23FC00382C1E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F49C8CE5264E240500382C1E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F49C8CE6264F73E700382C1E /* Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
+		F49C8CE7264F73E700382C1E /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
+		F49C8CE9264F73E700382C1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F49C8CEA264F73E700382C1E /* Adaptee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adaptee.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -710,6 +714,10 @@
 		F49C8C65264E202B00382C1E /* Adapter */ = {
 			isa = PBXGroup;
 			children = (
+				F49C8CE9264F73E700382C1E /* README.md */,
+				F49C8CE7264F73E700382C1E /* Target.h */,
+				F49C8CEA264F73E700382C1E /* Adaptee.h */,
+				F49C8CE6264F73E700382C1E /* Adapter.h */,
 				F49C8C66264E202B00382C1E /* main.cpp */,
 			);
 			path = Adapter;
