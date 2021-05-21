@@ -20,8 +20,7 @@ public:
 };
 
 // 奔驰
-class BenzBike : public IBike
-{
+class BenzBike : public IBike {
 public:
     string Name() {
         return "Benz Bike";
@@ -29,8 +28,7 @@ public:
 };
 
 // 宝马
-class BmwBike : public IBike
-{
+class BmwBike : public IBike {
 public:
     string Name() {
         return "Bmw Bike";
@@ -38,8 +36,7 @@ public:
 };
 
 // 奥迪
-class AudiBike : public IBike
-{
+class AudiBike : public IBike {
 public:
     string Name() {
         return "Audi Bike";

@@ -330,6 +330,9 @@
 		F49C8CE7264F73E700382C1E /* Target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target.h; sourceTree = "<group>"; };
 		F49C8CE9264F73E700382C1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F49C8CEA264F73E700382C1E /* Adaptee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adaptee.h; sourceTree = "<group>"; };
+		F49C8CEB2652660700382C1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F49C8CEC2652660700382C1E /* IColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IColor.h; sourceTree = "<group>"; };
+		F49C8CEE2652660700382C1E /* IShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IShape.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -706,6 +709,9 @@
 		F49C8C5A264E1FFF00382C1E /* Bridge */ = {
 			isa = PBXGroup;
 			children = (
+				F49C8CEB2652660700382C1E /* README.md */,
+				F49C8CEC2652660700382C1E /* IColor.h */,
+				F49C8CEE2652660700382C1E /* IShape.h */,
 				F49C8C5B264E1FFF00382C1E /* main.cpp */,
 			);
 			path = Bridge;
