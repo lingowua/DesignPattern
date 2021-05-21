@@ -16,8 +16,8 @@ int main(int argc, const char * argv[]) {
 
     // 生产奔驰、宝马、奥迪
     ICar *pBenzCar = pFactory->CreateCar(CAR_TYPE::BENZ);
-    ICar* pBmwCar = pFactory->CreateCar(CAR_TYPE::BMW);
-    ICar* pAudiCar = pFactory->CreateCar(CAR_TYPE::AUDI);
+    ICar *pBmwCar = pFactory->CreateCar(CAR_TYPE::BMW);
+    ICar *pAudiCar = pFactory->CreateCar(CAR_TYPE::AUDI);
     
     cout << pBenzCar->Name() << endl;
     cout << pBmwCar->Name() << endl;

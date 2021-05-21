@@ -21,18 +21,18 @@ enum FACTORY_TYPE {
 class AFactory {
 public:
     virtual ~AFactory() {}
-    virtual ICar* CreateCar() = 0;  // 生产汽车
-    virtual IBike* CreateBike() = 0;    // 生产自行车
-    static AFactory* CreateFactory(FACTORY_TYPE factory);  // 创建工厂
+    virtual ICar *CreateCar() = 0;  // 生产汽车
+    virtual IBike *CreateBike() = 0;    // 生产自行车
+    static AFactory *CreateFactory(FACTORY_TYPE factory);  // 创建工厂
 };
 
 // 奔驰工厂
 class BenzFactory : public AFactory {
 public:
-    ICar* CreateCar() {
+    ICar *CreateCar() {
         return new BenzCar();
     }
-    IBike* CreateBike() {
+    IBike *CreateBike() {
         return new BenzBike();
     }
 };
@@ -40,10 +40,10 @@ public:
 // 宝马工厂
 class BmwFactory : public AFactory {
 public:
-    ICar* CreateCar() {
+    ICar *CreateCar() {
         return new BmwCar();
     }
-    IBike* CreateBike() {
+    IBike *CreateBike() {
         return new BmwBike();
     }
 };
@@ -51,16 +51,16 @@ public:
 // 奥迪工厂
 class AudiFactory : public AFactory {
 public:
-    ICar* CreateCar() {
+    ICar *CreateCar() {
         return new AudiCar();
     }
-    IBike* CreateBike() {
+    IBike *CreateBike() {
         return new AudiBike();
     }
 };
 
 // 创建工厂
-AFactory* AFactory::CreateFactory(FACTORY_TYPE factory) {
+AFactory *AFactory::CreateFactory(FACTORY_TYPE factory) {
     AFactory *pFactory = NULL;
     switch (factory) {
     case FACTORY_TYPE::BENZ_FACTORY:  // 奔驰工厂

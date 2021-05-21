@@ -12,11 +12,11 @@
 
 using namespace std;
 
-// 汽车接口
+// 自行车接口
 class IBike {
 public:
     virtual ~IBike() {}
-    virtual string Name() = 0;  // 汽车名称
+    virtual string Name() = 0;  // 自行车名称
 };
 
 // 奔驰

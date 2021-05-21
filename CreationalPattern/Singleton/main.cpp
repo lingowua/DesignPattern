@@ -20,7 +20,6 @@ int main(int argc, const char * argv[]) {
     EagerSingleton::getInstance();
     EagerSingleton::getInstance();
     
-    
     Singleton::getInstance();
     
     return 0;

@@ -20,7 +20,7 @@ enum class CAR_TYPE {
 class Factory {
 public:
     // 生产汽车
-    ICar* CreateCar(CAR_TYPE type) {
+    ICar *CreateCar(CAR_TYPE type) {
         ICar *pCar = nullptr;
         switch(type) {
         case CAR_TYPE::BENZ:

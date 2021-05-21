@@ -15,7 +15,7 @@ using namespace std;
 class MilkTea {
 private:
     string iType;    // 奶茶类型
-    string iSize;    // *大小
+    string iSize;    // 大小
     bool iPearl;     // 珍珠
     bool iIce;       // 加冰
 public:

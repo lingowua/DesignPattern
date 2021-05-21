@@ -14,13 +14,13 @@
 class AFactory {
 public:
     virtual ~AFactory() {}
-    virtual ICar* CreateCar() = 0;  // 生产汽车
+    virtual ICar *CreateCar() = 0;  // 生产汽车
 };
 
 // 奔驰工厂
 class BenzFactory : public AFactory {
 public:
-    ICar* CreateCar() {
+    ICar *CreateCar() {
         return new BenzCar();
     }
 };
@@ -28,7 +28,7 @@ public:
 // 宝马工厂
 class BmwFactory : public AFactory {
 public:
-    ICar* CreateCar() {
+    ICar *CreateCar() {
         return new BmwCar();
     }
 };
@@ -36,7 +36,7 @@ public:
 // 奥迪工厂
 class AudiFactory : public AFactory {
 public:
-    ICar* CreateCar() {
+    ICar *CreateCar() {
         return new AudiCar();
     }
 };

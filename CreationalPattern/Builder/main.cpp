@@ -12,7 +12,7 @@
 
 #define SAFE_DELETE(p) { if(p){delete(p); (p)=NULL;} }
 
-int main(int argc, const char * argv[]) {
+int main(int argc, const char *argv[]) {
     Direcror *pDirecror = new Direcror();
     ThinkPadBuilder *pTPBuilder = new ThinkPadBuilder();
     YogaBuilder *pYogaBuilder = new YogaBuilder();
@@ -38,13 +38,11 @@ int main(int argc, const char * argv[]) {
     SAFE_DELETE(pYogaBuilder);
     SAFE_DELETE(pDirecror);
     
-    /*
     MilkTea milkTea = MilkTea::Builder().build();
     milkTea.show();
     
-    milkTea = MilkTea::Builder().ice(true).pearl(false).size("巨无霸").type("草莓味").build();
+    milkTea = MilkTea::Builder().ice(true).pearl(false).type("草莓味").build();
     milkTea.show();
-    */
     
     return 0;
 }

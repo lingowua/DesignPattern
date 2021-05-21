@@ -36,5 +36,4 @@ private:
     string name;
 };
 
-
 #endif /* Protype_h */
