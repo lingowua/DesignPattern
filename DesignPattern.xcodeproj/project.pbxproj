@@ -336,6 +336,11 @@
 		F4BB649826579BEC00BF7791 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4BB649A26579BEC00BF7791 /* Composite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Composite.h; sourceTree = "<group>"; };
 		F4BB649B26579BEC00BF7791 /* SafeComposite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SafeComposite.h; sourceTree = "<group>"; };
+		F4BB64A02658E40800BF7791 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4BB64A22658F7BB00BF7791 /* concrete_decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concrete_decorator.h; sourceTree = "<group>"; };
+		F4BB64A42658F7BB00BF7791 /* concrete_component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concrete_component.h; sourceTree = "<group>"; };
+		F4BB64A52658F7BB00BF7791 /* component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = component.h; sourceTree = "<group>"; };
+		F4BB64A72658F80E00BF7791 /* decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = decorator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -696,6 +701,11 @@
 		F49C8C44264E1F9700382C1E /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
+				F4BB64A02658E40800BF7791 /* README.md */,
+				F4BB64A52658F7BB00BF7791 /* component.h */,
+				F4BB64A42658F7BB00BF7791 /* concrete_component.h */,
+				F4BB64A72658F80E00BF7791 /* decorator.h */,
+				F4BB64A22658F7BB00BF7791 /* concrete_decorator.h */,
 				F49C8C45264E1F9700382C1E /* main.cpp */,
 			);
 			path = Decorator;
