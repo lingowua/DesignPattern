@@ -5,10 +5,16 @@
 //  Created by lingowu on 2021/5/14.
 //
 
-#include <iostream>
+#include "facade.h"
+
+#define SAFE_DELETE(p) { if(p){delete(p); (p)=NULL;} }
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    facade *fa = new facade;
+    fa->open();
+    cout << endl;
+    fa->close();
+    
+    SAFE_DELETE(fa);
     return 0;
 }
