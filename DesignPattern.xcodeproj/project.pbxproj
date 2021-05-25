@@ -344,6 +344,9 @@
 		F4BB64A9265B8A7B00BF7791 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4BB64AA265B8A7B00BF7791 /* subsystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subsystem.h; sourceTree = "<group>"; };
 		F4BB64AB265B8A7B00BF7791 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4BB64AD265BDBCB00BF7791 /* flyweight_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyweight_factory.h; sourceTree = "<group>"; };
+		F4BB64AF265BDBCB00BF7791 /* flyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyweight.h; sourceTree = "<group>"; };
+		F4BB64B2265BDBE500BF7791 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -688,6 +691,9 @@
 		F49C8C2E264E1F3B00382C1E /* Flyweight */ = {
 			isa = PBXGroup;
 			children = (
+				F4BB64B2265BDBE500BF7791 /* README.md */,
+				F4BB64AF265BDBCB00BF7791 /* flyweight.h */,
+				F4BB64AD265BDBCB00BF7791 /* flyweight_factory.h */,
 				F49C8C2F264E1F3B00382C1E /* main.cpp */,
 			);
 			path = Flyweight;
