@@ -5,10 +5,18 @@
 //  Created by lingowu on 2021/5/14.
 //
 
-#include <iostream>
+#include "proxy.h"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+#define SAFE_DELETE(p) { if(p){delete(p); (p)=NULL;} }
+
+
+int main() {
+	Proxy* proxy = new Proxy();
+	proxy->Recharge(4);
+	proxy->Recharge(10);
+
+	SAFE_DELETE(proxy);
+
+
+	return 0;
 }

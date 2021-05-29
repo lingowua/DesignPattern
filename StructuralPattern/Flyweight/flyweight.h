@@ -1,5 +1,5 @@
 //
-//  main.cpp
+//  flyweight.h
 //  Flyweight
 //
 //  Created by lingowu on 2021/5/14.

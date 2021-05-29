@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F41F4B3D2660C72200544BDB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F41F4B3A2660C72200544BDB /* main.cpp */; };
 		F4343A8B264CC428000D156D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4343A8A264CC428000D156D /* main.cpp */; };
 		F443CF0C264BAE170068BFF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F443CF0B264BAE170068BFF3 /* main.cpp */; };
 		F443CF1A264BD0300068BFF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F443CF19264BD0300068BFF3 /* main.cpp */; };
 		F443CF28264C1DCB0068BFF3 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F443CF27264C1DCB0068BFF3 /* main.cpp */; };
 		F49C8C08264D217000382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8C07264D217000382C1E /* main.cpp */; };
 		F49C8C13264D218300382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8C12264D218300382C1E /* main.cpp */; };
-		F49C8C25264E1EE600382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8C24264E1EE600382C1E /* main.cpp */; };
 		F49C8C30264E1F3B00382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8C2F264E1F3B00382C1E /* main.cpp */; };
 		F49C8C46264E1F9700382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8C45264E1F9700382C1E /* main.cpp */; };
 		F49C8C51264E1FC800382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8C50264E1FC800382C1E /* main.cpp */; };
@@ -253,6 +253,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F41F4B382660C72100544BDB /* subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subject.h; sourceTree = "<group>"; };
+		F41F4B392660C72200544BDB /* proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
+		F41F4B3A2660C72200544BDB /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F41F4B3B2660C72200544BDB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F41F4B3C2660C72200544BDB /* real_subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = real_subject.h; sourceTree = "<group>"; };
 		F4343A88264CC428000D156D /* Builder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Builder; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4343A8A264CC428000D156D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F4343A90264CFE86000D156D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -289,7 +294,6 @@
 		F49C8C1A264D6B2800382C1E /* Protype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Protype.h; sourceTree = "<group>"; };
 		F49C8C1B264D6B2800382C1E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F49C8C22264E1EE600382C1E /* Proxy */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Proxy; sourceTree = BUILT_PRODUCTS_DIR; };
-		F49C8C24264E1EE600382C1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F49C8C2D264E1F3B00382C1E /* Flyweight */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Flyweight; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49C8C2F264E1F3B00382C1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F49C8C38264E1F6E00382C1E /* Facade */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Facade; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -683,7 +687,11 @@
 		F49C8C23264E1EE600382C1E /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
-				F49C8C24264E1EE600382C1E /* main.cpp */,
+				F41F4B3B2660C72200544BDB /* README.md */,
+				F41F4B382660C72100544BDB /* subject.h */,
+				F41F4B3C2660C72200544BDB /* real_subject.h */,
+				F41F4B392660C72200544BDB /* proxy.h */,
+				F41F4B3A2660C72200544BDB /* main.cpp */,
 			);
 			path = Proxy;
 			sourceTree = "<group>";
@@ -1432,7 +1440,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49C8C25264E1EE600382C1E /* main.cpp in Sources */,
+				F41F4B3D2660C72200544BDB /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
