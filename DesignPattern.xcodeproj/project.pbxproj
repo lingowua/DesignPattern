@@ -29,8 +29,8 @@
 		F49C8CBF264E233E00382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8CBE264E233E00382C1E /* main.cpp */; };
 		F49C8CCA264E235C00382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8CC9264E235C00382C1E /* main.cpp */; };
 		F49C8CD5264E237500382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8CD4264E237500382C1E /* main.cpp */; };
-		F49C8CE0264E239A00382C1E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F49C8CDF264E239A00382C1E /* main.cpp */; };
 		F4BB64AC265B8A7B00BF7791 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4BB64AB265B8A7B00BF7791 /* main.cpp */; };
+		F4E38381266765A600B3DC16 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F4E3837F266765A600B3DC16 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -326,7 +326,6 @@
 		F49C8CD2264E237500382C1E /* Command */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Command; sourceTree = BUILT_PRODUCTS_DIR; };
 		F49C8CD4264E237500382C1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F49C8CDD264E239A00382C1E /* ChainOfResponsibility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChainOfResponsibility; sourceTree = BUILT_PRODUCTS_DIR; };
-		F49C8CDF264E239A00382C1E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F49C8CE4264E23FC00382C1E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F49C8CE5264E240500382C1E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F49C8CE6264F73E700382C1E /* Adapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adapter.h; sourceTree = "<group>"; };
@@ -351,6 +350,10 @@
 		F4BB64AD265BDBCB00BF7791 /* flyweight_factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyweight_factory.h; sourceTree = "<group>"; };
 		F4BB64AF265BDBCB00BF7791 /* flyweight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = flyweight.h; sourceTree = "<group>"; };
 		F4BB64B2265BDBE500BF7791 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4E3837D266765A600B3DC16 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4E3837E266765A600B3DC16 /* handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handler.h; sourceTree = "<group>"; };
+		F4E3837F266765A600B3DC16 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F4E38380266765A600B3DC16 /* concrete_handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = concrete_handler.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -848,7 +851,10 @@
 		F49C8CDE264E239A00382C1E /* ChainOfResponsibility */ = {
 			isa = PBXGroup;
 			children = (
-				F49C8CDF264E239A00382C1E /* main.cpp */,
+				F4E3837D266765A600B3DC16 /* README.md */,
+				F4E3837E266765A600B3DC16 /* handler.h */,
+				F4E38380266765A600B3DC16 /* concrete_handler.h */,
+				F4E3837F266765A600B3DC16 /* main.cpp */,
 			);
 			path = ChainOfResponsibility;
 			sourceTree = "<group>";
@@ -1576,7 +1582,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F49C8CE0264E239A00382C1E /* main.cpp in Sources */,
+				F4E38381266765A600B3DC16 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
