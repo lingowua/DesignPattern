@@ -5,8 +5,8 @@
 //  Created by lingowu on 2021/5/14.
 //
 
-#ifndef CONCRETE_HANDLER_H
-#define CONCRETE_HANDLER_H
+#ifndef CONCRETE_COMMAND_H
+#define CONCRETE_COMMAND_H
 
 #include <vector>
 #include "command.h"
@@ -93,4 +93,4 @@ public:
     }
 };
 
-#endif // CONCRETE_HANDLER_H
+#endif // CONCRETE_COMMAND_H

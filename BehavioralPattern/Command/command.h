@@ -5,8 +5,8 @@
 //  Created by lingowu on 2021/5/14.
 //
 
-#ifndef HANDLER_H
-#define HANDLER_H
+#ifndef COMMAND_H
+#define COMMAND_H
 
 #include <iostream>
 
@@ -17,4 +17,4 @@ public:
     virtual void undo() = 0;
 };
 
-#endif // HANDLER_H
+#endif // COMMAND_H
