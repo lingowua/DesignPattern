@@ -362,6 +362,8 @@
 		F4DC473226A5613B00F7E78C /* Mediator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mediator.h; sourceTree = "<group>"; };
 		F4DC473326A9115A00F7E78C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4DC473426A9115A00F7E78C /* Memento.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Memento.h; sourceTree = "<group>"; };
+		F4DC473526A9574B00F7E78C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F4DC473626A9574B00F7E78C /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
 		F4E3837D266765A600B3DC16 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F4E3837E266765A600B3DC16 /* handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = handler.h; sourceTree = "<group>"; };
 		F4E3837F266765A600B3DC16 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -815,6 +817,8 @@
 		F49C8C9C264E22E600382C1E /* Observer */ = {
 			isa = PBXGroup;
 			children = (
+				F4DC473526A9574B00F7E78C /* README.md */,
+				F4DC473626A9574B00F7E78C /* Observer.h */,
 				F49C8C9D264E22E600382C1E /* main.cpp */,
 			);
 			path = Observer;
