@@ -5,10 +5,21 @@
 //  Created by lingowu on 2021/5/14.
 //
 
-#include <iostream>
+#include "TemplateMethod.h"
+
+#define SAFE_DELETE(p) { if(p){delete(p); (p)=NULL;} }
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    Company *alibaba = new Alibaba();
+    alibaba->Recruit();
+    
+    cout << endl << endl;
+    Company *bytedance = new ByteDance();
+    bytedance->Recruit();
+
+    SAFE_DELETE(alibaba);
+    SAFE_DELETE(bytedance);
+    
     return 0;
 }
