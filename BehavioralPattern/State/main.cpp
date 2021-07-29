@@ -5,10 +5,24 @@
 //  Created by lingowu on 2021/5/14.
 //
 
-#include <iostream>
+#include "State.h"
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    UserWithoutState user1;
+    user1.purchase(15);
+    user1.orderTable(5);
+    user1.purchaseVIP();
+    user1.purchase(15);
+    user1.orderTable(5);
+    
+    cout << endl << endl;
+    User user;
+    user.purchase(15);
+    user.orderTable(5);
+    user.purchaseVIP();
+    user.purchase(15);
+    user.orderTable(5);
+    
+    
     return 0;
 }
