@@ -34,14 +34,14 @@ public:
 // 具体公司类
 class Alibaba : public Company {
 public:
-    virtual void Interview() override { cout << "阿里一面 -> 阿里二面 -> 阿里最终面" << endl;}
-    virtual void Offer() override { cout << "阿里发offer" << endl;}
+    void Interview() override { cout << "阿里一面 -> 阿里二面 -> 阿里最终面" << endl;}
+    void Offer() override { cout << "阿里发offer" << endl;}
 };
 
 class ByteDance : public Company {
 public:
-    virtual void Interview() override { cout << "字节一面 -> 字节交叉面 -> 字节最终面" << endl;}
-    virtual void Offer() override { cout << "字节发offer" << endl;}
+    void Interview() override { cout << "字节一面 -> 字节交叉面 -> 字节最终面" << endl;}
+    void Offer() override { cout << "字节发offer" << endl;}
 };
 
 #endif // TEMPLATEMETHOD_H
